@@ -1,0 +1,81 @@
+#pc {
+    position: relative;
+    margin-bottom: 20px;
+    height: 150px;
+    color: white;
+    cursor: pointer;
+}
+
+.style1 {
+    background-image: linear-gradient(45deg, #2e3192, #1bffff);
+}
+
+.style2 {
+    background-image: linear-gradient(45deg, #d4145a, #fbb03b);
+}
+
+.style3 {
+    background-image: linear-gradient(45deg, #662d8c, #ed1e79);
+}
+
+#pc .comment {
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.37);
+    font-weight: 500;
+}
+
+#pc .org {
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#pc .name {
+    font-size: 18px;
+    left: 10px;
+    bottom: 8px;
+    font-weight: 500;
+    position: absolute;
+}
+
+#pc:hover {
+    transition: 300ms ease;
+    opacity: 0.7;
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.status-online {
+    background-image: linear-gradient(45deg, #009245, #fcee21);
+}
+
+.status-offline {
+    background-image: linear-gradient(45deg, #d4145a, #fbb03b); 
+}
+
+.list {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.list .badge {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
